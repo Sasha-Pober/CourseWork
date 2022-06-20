@@ -6,19 +6,17 @@ using System.Threading.Tasks;
 
 namespace CourseWork
 {
-    class Dish : Cuisine
+    class Dish : MealRate
     {
         public string name { get; set; }
-        public string rate { get; set; }
         public int calories { get; set; }
         public int weight { get; set; }
 
         public List<Ingredient> ingredients { get; set; }
 
-        public Dish(string type, string name, string rate, int cal, int mass, List<Ingredient> components) : base(type)
+        public Dish(string type, string name, string rate, int cal, int mass, List<Ingredient> components) : base(type, rate)
         {
             this.name = name;
-            this.rate = rate;
             this.calories = cal;
             this.weight = mass;
             ingredients = components;
