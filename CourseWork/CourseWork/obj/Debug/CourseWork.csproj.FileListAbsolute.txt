@@ -14,5 +14,5 @@ C:\Users\HP\Documents\kpi\Projects\Programming\CourseWork\CourseWork\bin\Debug\N
 C:\Users\HP\Documents\kpi\Projects\Programming\CourseWork\CourseWork\obj\Debug\CourseWork.OrderMealForm.resources
 C:\Users\HP\Documents\kpi\Projects\Programming\CourseWork\CourseWork\obj\Debug\CourseWork.csproj.CopyComplete
 C:\Users\HP\Documents\kpi\Projects\Programming\CourseWork\CourseWork\obj\Debug\CourseWork.GenerateDinnerForm.resources
-C:\Users\HP\Documents\kpi\Projects\Programming\CourseWork\CourseWork\obj\Debug\CourseWork.CoockedMealsForm.resources
 C:\Users\HP\Documents\kpi\Projects\Programming\CourseWork\CourseWork\obj\Debug\CourseWork.AddMealForm.resources
+C:\Users\HP\Documents\kpi\Projects\Programming\CourseWork\CourseWork\obj\Debug\CourseWork.CookedMealsForm.resources

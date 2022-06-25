@@ -8,7 +8,7 @@ using System.IO;
 
 namespace CourseWork
 {
-    class Cuisine 
+    abstract class Cuisine 
     {
         public string type { get; set; } 
 

@@ -14,24 +14,11 @@ namespace CourseWork
     public partial class FormMain : Form
     {
         MealList mealList = new MealList();
-        IngredientList ingredientList = new IngredientList();
 
         public FormMain()
         {
             InitializeComponent();
             generateIngredients();
-            rewriteIngredients();
-        }
-
-        private void rewriteIngredients()
-        {
-            ingredientList.fromFile("IngredientData.txt");
-
-            foreach (var i in ingredientList.Ingredients)
-            {
-                i.count = 10;
-            }
-            ingredientList.toFile("IngredientData.txt");
         }
 
         public void generateIngredients()
@@ -44,7 +31,7 @@ namespace CourseWork
             {
                 for(int j = 0; j < mealList.mealList[i].ingredients.Count; j++)
                 {
-                    Ingredient temp = new Ingredient(mealList.mealList[i].ingredients[j].name, 10);
+                    Ingredient temp = mealList.mealList[i].ingredients[j];
                     if (list.Ingredients.Contains<Ingredient>(temp) == false)
                     {
                         list.Add(temp);
@@ -75,7 +62,7 @@ namespace CourseWork
 
         private void CoockedMealsBtn_Click(object sender, EventArgs e)
         {
-            new CoockedMealsForm().ShowDialog();
+            new CookedMealsForm().ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)

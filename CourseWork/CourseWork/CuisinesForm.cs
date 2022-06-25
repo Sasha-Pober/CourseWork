@@ -23,10 +23,7 @@ namespace CourseWork
             createProductList();
             createMealList();
         }
-        private void checkBox4_CheckedChanged(object sender, EventArgs e) { }
-        private void checkBox1_CheckedChanged(object sender, EventArgs e) { }
-        private void checkBox2_CheckedChanged(object sender, EventArgs e) { }
-        private void checkBox3_CheckedChanged(object sender, EventArgs e) { }
+
 
         private void tableInsert(List<Dish> c)
         {
@@ -48,15 +45,6 @@ namespace CourseWork
         private void createMealList()
         {
             meal.fromFile("data.txt");
-        }
-
-        private void fill()
-        {
-            listBox1.Items.AddRange(meal.mealList.Select(i => i.name).ToArray());
-            listBox2.Items.AddRange(meal.mealList.Select(i => i.calories.ToString()).ToArray());
-            listBox3.Items.AddRange(meal.mealList.Select(i => i.weight.ToString()).ToArray());
-            listBox4.Items.AddRange(meal.mealList.Select(i => i.getListStr()).ToArray());
-
         }
 
         private void clearAllLists()
@@ -184,7 +172,7 @@ namespace CourseWork
             {
                 for (int j = 0; j < meal.mealList[i].ingredients.Count; j++)
                 {
-                    Ingredient temp = new Ingredient(meal.mealList[i].ingredients[j].name, 10);
+                    Ingredient temp = meal.mealList[i].ingredients[j];
                     if (list.Ingredients.Contains<Ingredient>(temp) == false)
                     {
                         list.Add(temp);

@@ -58,11 +58,11 @@
     <Compile Include="Classes\Cuisine.cs" />
     <Compile Include="Classes\IngredientList.cs" />
     <Compile Include="Classes\ISerialize.cs" />
-    <Compile Include="CoockedMealsForm.cs">
+    <Compile Include="CookedMealsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CoockedMealsForm.Designer.cs">
-      <DependentUpon>CoockedMealsForm.cs</DependentUpon>
+    <Compile Include="CookedMealsForm.Designer.cs">
+      <DependentUpon>CookedMealsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="CuisinesForm.cs">
       <SubType>Form</SubType>
@@ -85,7 +85,7 @@
       <DependentUpon>GenerateDinnerForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\Ingredient.cs" />
-    <Compile Include="MealRate.cs" />
+    <Compile Include="Classes\MealRate.cs" />
     <Compile Include="OrderMealForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,8 +97,8 @@
     <EmbeddedResource Include="AddMealForm.resx">
       <DependentUpon>AddMealForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CoockedMealsForm.resx">
-      <DependentUpon>CoockedMealsForm.cs</DependentUpon>
+    <EmbeddedResource Include="CookedMealsForm.resx">
+      <DependentUpon>CookedMealsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CuisinesForm.resx">
       <DependentUpon>CuisinesForm.cs</DependentUpon>

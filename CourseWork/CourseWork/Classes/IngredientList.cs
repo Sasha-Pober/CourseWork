@@ -33,13 +33,15 @@ namespace CourseWork
 
         public void deleteDuplicates()
         {
-            List<string> l = Ingredients.Select(n => n.name).ToList();
-            l = l.Distinct().ToList();
+            List<string> l = Ingredients.Select(n => n.name).Distinct().ToList();
+
             Ingredients.Clear();
+
             for (int i = 0; i < l.Count; i++)
             {
                 Ingredients.Add(new Ingredient(l[i], 10));
             }
+            
         }
     }
 }

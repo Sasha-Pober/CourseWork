@@ -12,7 +12,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="CourseWork.Ingredient">
-    <Position X="2.25" Y="2.25" Width="1.5" />
+    <Position X="2" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Ingredient.cs</FileName>
@@ -27,15 +27,15 @@
       <HashCode>AAYAAAAAAAAAAAAAAAAAACBAAAAAAAAAAABABAAAAAA=</HashCode>
       <FileName>Classes\IngredientList.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
+    <Lollipop Position="0.242" />
   </Class>
   <Class Name="CourseWork.Dish">
-    <Position X="4" Y="2.25" Width="1.5" />
+    <Position X="4" Y="4" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAEAAAAAAIAAEIAAAAAAEAAAEAAAgAAAAACAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAEAAAEAAAgAAAAACAAAAA=</HashCode>
       <FileName>Classes\Dish.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -56,24 +56,24 @@
       <FileName>AddMealForm.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CourseWork.CoockedMealsForm" Collapsed="true">
+  <Class Name="CourseWork.CookedMealsForm" Collapsed="true">
     <Position X="8.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAkEAACAAABAAAACAAAACAAAAAAIAAAAAAAAEAAA=</HashCode>
-      <FileName>CoockedMealsForm.cs</FileName>
+      <FileName>CookedMealsForm.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CourseWork.CuisinesForm" Collapsed="true">
     <Position X="10" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABggEAACAACBEAAACAAAACABgIAAIAIUgABAEEAAA=</HashCode>
+      <HashCode>AAABhgEAACAACBAAAACAAAACABgAAAIAIUAABAEEAAA=</HashCode>
       <FileName>CuisinesForm.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CourseWork.FormMain" Collapsed="true">
     <Position X="6.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAIBAEQAACAAAJAAAAGAECCCAQAIgAAJAEAAAAAEAAA=</HashCode>
+      <HashCode>AAIBAEQAACAAAJAAAACAECACAQAIgAAJAEAAAAAEAAA=</HashCode>
       <FileName>FormMain.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -89,6 +89,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAFEAACAIABAAAACCAAACAAAIQAIAEEAABAEEAAA=</HashCode>
       <FileName>OrderMealForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseWork.MealRate">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\MealRate.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="CourseWork.ISerialize" Collapsed="true">
